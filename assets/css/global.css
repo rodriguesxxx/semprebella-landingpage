@@ -28,7 +28,11 @@ ul{
 .purple{
     color: #6300af;
 }
-.background-black{
+.black-bg{
     background-color: #000;
+    color: #fff;
+}
+.black-bg-lite{
+    background-color: #141414;
     color: #fff;
 }
