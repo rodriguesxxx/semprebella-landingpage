@@ -23,7 +23,8 @@
 }
 .vendido-list img{
     object-fit: cover;
-    height: 400px;    
+    height: 400px;
+    width: 500px;  
 }
 .vendido-name{
     margin-top: 20px;
