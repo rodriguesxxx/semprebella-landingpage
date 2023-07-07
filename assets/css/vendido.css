@@ -1,0 +1,80 @@
+.vendido{
+    margin-top: 200px;
+    padding-bottom: 120px;
+    display: block;
+}
+.vendido-title{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 60px;
+}
+
+.vendido-list{
+    display: flex;
+    gap: 60px;
+    padding: 0 20px 20px 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+.vendido-list li{
+    min-width: 400px;
+}
+.vendido-list img{
+    object-fit: cover;
+    height: 400px;    
+}
+.vendido-name{
+    margin-top: 20px;
+    font-size: 28px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.vendido-name::before{
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    top: 20px;
+    left: -4px;
+    background: linear-gradient(#52038f, #2f0154);
+    transition: width 0.2s;
+}
+.vendido-name:hover:before{
+    width: 20px;   
+}
+.vendido-preco{
+    padding-left: 20px;
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #474747;
+}
+.vendido-comprar{
+    color: #fff;
+    background: linear-gradient(#7905D4, #520093);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 52px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+.vendido-comprar:hover{
+    background: linear-gradient(#52038f, #2f0154);    
+}
+
+@media(max-width:888px){
+    .vendido-title{
+        font-size: 50px;
+    }
+}
+@media(max-width:600px){
+    .vendido-title{
+        font-size: 40px;
+    }
+}
