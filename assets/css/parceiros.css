@@ -47,7 +47,7 @@
     transform: scale(1.2);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1110px) {
     .parceiros {
       padding-bottom: 60px;
     }
